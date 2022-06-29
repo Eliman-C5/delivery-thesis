@@ -1,0 +1,21 @@
+.login-styles {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+}
+
+.form-style {
+    width: 300px;
+    border: 1px solid black;
+    padding: 4% 8%;
+}
+
+button {
+    display: block;
+}
+
+@media screen and (min-width: 450px) {
+    .form-style {
+        width: 420px;
+    }
+}
