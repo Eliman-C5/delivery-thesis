@@ -14,6 +14,68 @@ button {
     display: block;
 }
 
+.container-project {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.cards-project {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    padding: 0 1rem;
+    margin: 2rem 0;
+}
+
+.card-project {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    flex: 1;
+    padding: 2%;
+    max-width: 300px;
+    min-width: 250px;
+    flex-shrink: 0;
+    gap: 5px
+}
+
+.image-project {
+    width: 100px;
+    height: 100px;
+    margin-right: auto;
+}
+
+.span-project {
+    color: black;
+    font-weight: 600;
+}
+
+.modal-project {
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100%;
+    display: grid;
+    place-content: center;
+    background-color: rgba(18, 17, 17, 0.5);
+}
+
+.modal-form-project {
+    background-color: white;
+    width: 50vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem 0;
+    gap: 10px;
+}
+
+.btnBox-project {
+    display: flex;
+    gap: 4px;
+}
+
 @media screen and (min-width: 450px) {
     .form-style {
         width: 420px;
