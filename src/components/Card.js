@@ -1,7 +1,7 @@
 import { Fragment, useState } from "react"
 import Modal from './Modal'
 
-const Card = ({name, text, img, sectors, phone}) => {
+const Card = ({name, text, img, sectors}) => {
 
     const [show, setShow] = useState(false)
 
@@ -25,7 +25,7 @@ const Card = ({name, text, img, sectors, phone}) => {
                 <div className="modal-form-project">
                     <h2>{name}</h2>
                     <p>Texto de prueba</p>
-                    <span className="span-project">{phone}</span>
+                    <span className="span-project">El repartidor se contactará con usted en cuanto la administración verifique el pago</span>
                     <div className="btnBox-project">
                         <button onClick={handleModal} className='btn-project'>Cerrar</button>
                         <a 

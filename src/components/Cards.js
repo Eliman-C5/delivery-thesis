@@ -8,7 +8,6 @@ const workers = [
         text: 'Trabaja regularmente de x hora a y hora. Super responsable y llega a cualquier parte',
         img: '/img/Eli.png',
         sectors: 'Jorge Hernández',
-        phone: '+58 4146216537'
     },
     {
         id: 2, 
@@ -16,7 +15,6 @@ const workers = [
         text: 'Trabaja regularmente de x hora a y hora. Super responsable y llega a cualquier parte',
         img: '/img/Eli.png',
         sectors: 'Ambrosio',
-        phone: '+58 4146216537'
     },
     {
         id: 3, 
@@ -24,7 +22,6 @@ const workers = [
         text: 'Trabaja regularmente de x hora a y hora. Super responsable y llega a cualquier parte',
         img: '/img/Eli.png',
         sectors: 'Arístides Calvani',
-        phone: '+58 4146216537'
     },
     {
         id: 4, 
@@ -32,7 +29,6 @@ const workers = [
         text: 'Trabaja regularmente de x hora a y hora. Super responsable y llega a cualquier parte',
         img: '/img/Eli.png',
         sectors: 'Arístides Calvani',
-        phone: '+58 4146216537'
     },
     {
         id: 5, 
@@ -40,7 +36,6 @@ const workers = [
         text: 'Trabaja regularmente de x hora a y hora. Super responsable y llega a cualquier parte',
         img: '/img/Eli.png',
         sectors: 'Carmen Herrera',
-        phone: '+58 4146216537'
     },
     {
         id: 6, 
@@ -48,7 +43,6 @@ const workers = [
         text: 'Trabaja regularmente de x hora a y hora. Super responsable y llega a cualquier parte',
         img: '/img/Eli.png',
         sectors: 'Germán Ríos Linares',
-        phone: '+58 4146216537'
     },
     {
         id: 7, 
@@ -56,7 +50,6 @@ const workers = [
         text: 'Trabaja regularmente de x hora a y hora. Super responsable y llega a cualquier parte',
         img: '/img/Eli.png',
         sectors: 'La Rosa',
-        phone: '+58 4146216537'
     },
     {
         id: 8, 
@@ -64,7 +57,6 @@ const workers = [
         text: 'Trabaja regularmente de x hora a y hora. Super responsable y llega a cualquier parte',
         img: '/img/Eli.png',
         sectors: 'Punta Gorda',
-        phone: '+58 4146216537'
     },
     {
         id: 9, 
@@ -72,7 +64,6 @@ const workers = [
         text: 'Trabaja regularmente de x hora a y hora. Super responsable y llega a cualquier parte',
         img: '/img/Eli.png',
         sectors: 'Rómulo Betancourt',
-        phone: '+58 4146216537'
     },
     {
         id: 10, 
@@ -80,7 +71,6 @@ const workers = [
         text: 'Trabaja regularmente de x hora a y hora. Super responsable y llega a cualquier parte',
         img: '/img/Eli.png',
         sectors: 'San Benito',
-        phone: '+58 4146216537'
     },
 ]
 
@@ -143,7 +133,6 @@ const Cards = () => {
                         text={worker.text} 
                         sectors={worker.sectors} 
                         img={worker.img} 
-                        phone={worker.phone}
                     />
                 )) : 
                 workers.map(worker => (
@@ -153,7 +142,6 @@ const Cards = () => {
                         text={worker.text} 
                         sectors={worker.sectors} 
                         img={worker.img} 
-                        phone={worker.phone}
                     />
                 ))
             }
