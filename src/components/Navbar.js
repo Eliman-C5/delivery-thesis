@@ -1,5 +1,11 @@
 import React from 'react'
+import { app } from "../fb";
 import { Navbar, NavbarBrand, NavbarToggler, Nav, Collapse, NavItem, NavLink, UncontrolledDropdown, DropdownToggle, DropdownMenu, DropdownItem, NavbarText } from 'reactstrap'
+
+
+const cerrarSesion = () => {
+  app.auth().signOut();
+};
 
 const NavbarProject = () => {
   return (
@@ -47,9 +53,7 @@ const NavbarProject = () => {
                                 </DropdownMenu>
                                 </UncontrolledDropdown>
                         </Nav>
-                        <NavbarText>
-                            Simple Text
-                        </NavbarText>
+                        <button onClick={cerrarSesion}>Cerrar Sesión</button>
                     </Collapse>
             </Navbar>
     </div>

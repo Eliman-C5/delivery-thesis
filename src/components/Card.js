@@ -27,8 +27,14 @@ const Card = ({name, text, img, sectors, phone}) => {
                     <p>Texto de prueba</p>
                     <span className="span-project">{phone}</span>
                     <div className="btnBox-project">
-                        <button onClick={handleModal}>Cerrar</button>
-                        <button>Enviar datos</button>
+                        <button onClick={handleModal} className='btn-project'>Cerrar</button>
+                        <a 
+                        href="https://docs.google.com/forms/d/e/1FAIpQLSdpUc-l_NFMVpWiyYJ2HqNDzvqw3tvHZiSpNtM-ciffc2ZOOQ/viewform?usp=sf_link" 
+                        target='_blank'
+                        className="a-project button"
+                        >
+                            Enviar datos
+                        </a>
                     </div>
                 </div>
             </Modal>

@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import { app } from "./fb";
 import NavbarProject from "./components/Navbar";
 import Cards from "./components/Cards";
@@ -9,12 +9,13 @@ const Home = () => {
   };
 
   return (
-    <div className="container-project">
-        <NavbarProject />
-        <h1>Bienvenido, sesión iniciada.</h1>
-        <button onClick={cerrarSesion}>Cerrar Sesión</button>
-        <Cards />
-    </div>
+    <Fragment>
+      <NavbarProject />
+      <div className="container-project">
+          <h1>Bienvenido, sesión iniciada.</h1>
+          <Cards />
+      </div>
+    </Fragment>
   );
 };
 
