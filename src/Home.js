@@ -12,7 +12,7 @@ const Home = () => {
     <Fragment>
       <NavbarProject />
       <div className="container-project">
-          <h1>Bienvenido, sesión iniciada.</h1>
+          <h1 className="title-project">Bienvenido A TU CASA!</h1>
           <Cards />
       </div>
     </Fragment>

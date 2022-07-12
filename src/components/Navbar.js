@@ -9,52 +9,19 @@ const cerrarSesion = () => {
 
 const NavbarProject = () => {
   return (
-    <div>
+    <div className='navbar-project'>
         <Navbar
-            color="light"
+            color="warning"
             expand="md"
             light
         >
             <NavbarBrand href="/">
-                A tu casa
+                <img src='/img/IMG-20220710-WA0012.jpg' className='image-nav-project' />
             </NavbarBrand>
                 <NavbarToggler onClick={function noRefCheck(){}} />
-                    <Collapse navbar>
-                        <Nav
-                            className="me-auto"
-                            navbar
-                        >
-                                <NavItem>
-                                    <NavLink href="https://github.com/reactstrap/reactstrap">
-                                        GitHub
-                                    </NavLink>
-                                </NavItem>
-                                <UncontrolledDropdown
-                                    inNavbar
-                                    nav
-                                >
-                                <DropdownToggle
-                                    caret
-                                    nav
-                                >
-                                    Options
-                                </DropdownToggle>
-                                <DropdownMenu right>
-                                <DropdownItem>
-                                    Option 1
-                                </DropdownItem>
-                                <DropdownItem>
-                                    Option 2
-                                </DropdownItem>
-                                <DropdownItem divider />
-                                <DropdownItem>
-                                    Reset
-                                </DropdownItem>
-                                </DropdownMenu>
-                                </UncontrolledDropdown>
-                        </Nav>
-                        <button onClick={cerrarSesion}>Cerrar Sesión</button>
-                    </Collapse>
+                <Collapse navbar>
+                    <button onClick={cerrarSesion} className='btn-nav-project'>Cerrar Sesión</button>
+                </Collapse>
             </Navbar>
     </div>
   )

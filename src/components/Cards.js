@@ -13,7 +13,7 @@ const workers = [
         id: 2, 
         name: 'Juanito Pérez', 
         text: 'Trabaja regularmente de x hora a y hora. Super responsable y llega a cualquier parte',
-        img: '/img/Eli.png',
+        img: '/img/delivery-man-holding-paper-bag-in-green-t-shirt-with-cap-and-mask (1).png',
         sectors: 'Ambrosio',
     },
     {
