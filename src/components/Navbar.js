@@ -16,7 +16,7 @@ const NavbarProject = () => {
             light
         >
             <NavbarBrand href="/">
-                <img src='/img/IMG-20220710-WA0012.jpg' className='image-nav-project' />
+                <h1 className='title-nav-project'>A TU CASA</h1>
             </NavbarBrand>
                 <NavbarToggler onClick={function noRefCheck(){}} />
                 <Collapse navbar>

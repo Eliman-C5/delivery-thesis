@@ -14,7 +14,12 @@ const SignIn = ({isRegistrando, setIsRegistrando, setUsuario}) => {
         //comunicarle al usuario que no esta en la DB
         console.log("sesión iniciada con:", usuarioFirebase.user);
         setUsuario(usuarioFirebase);
-      });
+      })
+      .catch(err => {
+        console.log(err)
+        alert(`No existe ningun usuario con esos datos. Debes registrarte primero`)
+      })
+      ;
   };
 
   const submitHandler = (e) => {

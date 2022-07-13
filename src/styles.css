@@ -2,12 +2,21 @@
     height: 100vh;
     display: grid;
     place-content: center;
+    background-color: #FFF81B;
 }
 
 .form-style {
     width: 300px;
     border: 1px solid black;
     padding: 4% 8%;
+    background-image: url('/public/img/IMG-20220629-WA0017.jpg');
+    background-size: cover;
+    height: 500px;
+    background-position: bottom;
+}
+
+.special-input {
+    border: 3px solid #ced4da;
 }
 
 button {
@@ -18,9 +27,8 @@ button {
     background-color: #FFF81B;
 }
 
-.image-nav-project {
-    width: 45px;
-    height: 45px;
+.title-nav-project {
+    color: white;
 }
 
 .btn-nav-project {
@@ -164,7 +172,7 @@ button {
     z-index: 10;
     display: none;
     flex-direction: column;
-    padding: 1rem 0 0 0;
+    padding-left: 0;
     border: 1px solid black;
 }
 
