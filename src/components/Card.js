@@ -25,7 +25,7 @@ const Card = ({name, text, img, sectors}) => {
                 <div className="modal-form-project">
                     <h2>{name}</h2>
                     <p>{text}</p>
-                    <span className="span-project">El repartidor se contactará con usted en cuanto la administración verifique el pago</span>
+                    <span className="span-project">La administración se contactará con usted en cuanto se verifique el pago</span>
                     <div className="btnBox-project">
                         <button onClick={handleModal} className='btn-project'>Cerrar</button>
                         <a 

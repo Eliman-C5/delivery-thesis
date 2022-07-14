@@ -27,6 +27,45 @@ button {
     background-color: #FFF81B;
 }
 
+.quienes-somos {
+    background-color: #ffc107;
+    color: white;
+    border-top: 1px solid white;
+    display: flex;
+    gap: 4px;
+}
+
+.quienes-p {
+    margin: .5rem;
+}
+
+.quienes-p:hover {
+    opacity: .5;
+    cursor: pointer;
+}
+
+.image-testimonial {
+    margin: 30px auto;
+    width: 150px;
+    height: 150px;
+    filter: drop-shadow(2px 4px 6px black)
+}
+
+.image-testimonial-empresa {
+    margin: 30px auto;
+    width: 150px;
+    height: 150px;
+    filter: drop-shadow(2px 4px 6px black)
+}
+
+.image-img {
+    width: 100%;
+}
+
+.testimonial-container {
+    margin-bottom: 30px;
+}
+
 .title-nav-project {
     color: white;
 }
@@ -196,5 +235,15 @@ button {
 
     .btnBox-project {
         flex-direction: row;
+    }
+
+    .image-testimonial {
+        width: 350px;
+        height: 350px;
+    }
+
+    .image-testimonial-empresa {
+        width: 400px;
+        height: 400px;
     }
 }

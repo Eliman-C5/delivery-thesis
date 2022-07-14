@@ -7,7 +7,7 @@ const cerrarSesion = () => {
   app.auth().signOut();
 };
 
-const NavbarProject = () => {
+const NavbarProject = ({setShow, show}) => {
   return (
     <div className='navbar-project'>
         <Navbar
@@ -18,11 +18,16 @@ const NavbarProject = () => {
             <NavbarBrand href="/">
                 <h1 className='title-nav-project'>A TU CASA</h1>
             </NavbarBrand>
-                <NavbarToggler onClick={function noRefCheck(){}} />
-                <Collapse navbar>
-                    <button onClick={cerrarSesion} className='btn-nav-project'>Cerrar Sesión</button>
-                </Collapse>
-            </Navbar>
+                <button onClick={cerrarSesion} className='btn-nav-project'>Cerrar Sesión</button>
+          </Navbar>
+          <div className='quienes-somos'>
+            <p onClick={() => setShow(false)} className='quienes-p'>
+            Home
+            </p>
+            <p onClick={() => setShow(true)} className='quienes-p'>
+            ¿Quienes somos?
+            </p>
+          </div>
     </div>
   )
 }

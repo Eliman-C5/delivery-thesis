@@ -46,16 +46,16 @@ const workers = [
     },
     {
         id: 7, 
-        name: 'Gustavo Díaz', 
+        name: 'Ender Mendoza', 
         text: 'La velocidad sería su mejor cualidad. Sin duda, ama este trabajo',
-        img: '/img/Eli.png',
+        img: '/img/usuario-6.png',
         sectors: 'La Rosa',
     },
     {
         id: 8, 
-        name: 'Gerson Acosta', 
+        name: 'Cesar Martínez', 
         text: 'Llega con tiempo de sobra y con gran precisión',
-        img: '/img/Eli.png',
+        img: '/img/usuario-7.png',
         sectors: 'Punta Gorda',
     },
     {
@@ -86,6 +86,8 @@ const Cards = () => {
 
   return (
     <Fragment>
+
+        <p>Si el repartidor es de la misma parroquia se estableció un precio fijo de 1$. Pero si es de una parroquia diferente entonces debe concretarse el precioa pagar con la administración</p>
 
         <div className='dropdown-project' onClick={handleDropdown}>
             {item}
