@@ -87,7 +87,7 @@ const Cards = () => {
   return (
     <Fragment>
 
-        <p>Si el repartidor es de la misma parroquia se estableció un precio fijo de 1$. Pero si es de una parroquia diferente entonces debe concretarse el precioa pagar con la administración</p>
+        <p>Seleccione el repartidor de su preferencia por parroquia o persona de interés</p>
 
         <div className='dropdown-project' onClick={handleDropdown}>
             {item}

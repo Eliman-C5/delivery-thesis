@@ -29,7 +29,7 @@ const Card = ({name, text, img, sectors}) => {
                     <div className="btnBox-project">
                         <button onClick={handleModal} className='btn-project'>Cerrar</button>
                         <a 
-                        href="https://docs.google.com/forms/d/e/1FAIpQLSdYzUGe226i-tQO9lsu2Wq_-WYCRHpmPkDazVu9VCW73bYN5Q/viewform?usp=sf_link" 
+                        href="https://docs.google.com/forms/d/e/1FAIpQLScq77YortqUWcf7b7Y3q4gbbqNVNoO2qZNmw9dRrgMLZkiOOw/viewform?usp=sf_link" 
                         target='_blank'
                         className="a-project button"
                         >
